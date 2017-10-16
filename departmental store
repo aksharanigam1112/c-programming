@@ -1,0 +1,316 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int c,f;
+    float total;
+    printf("\n----------------------------------------------\n");
+    printf("\n     WELCOME TO A TO Z DEPARTMENTAL STORE       \n");
+    printf("WHAT WOULD YOU LIKE TO BUY?\n");
+    printf("ENTER 1 FOR PULSES\n");
+    printf("ENTER 2 FOR VEGITABLES\n");
+    printf("ENTER 3 FOR FRUITS\n");
+    printf("ENTER 4 FOR DAILY USAGE ITEMS\n");
+    printf("ENTER 5 FOR MOBILE PHONES\n");
+    printf("ENTER 6 FOR TV'S\n");
+    printf("ENTER 0 TO WIND UP YOUR SHOPING\n");
+    scanf("%d",&c);
+    while(c!=0)
+    {
+        switch(c)
+        {
+        case 1:
+            {
+                printf("ENTER 1 FOR MASUUR DAAL RS. 30/KG\n");
+                printf("ENTER 2 FOR ARHAR DAAL RS. 35/Kg\n");
+                printf("ENTER 3 FOR MOONG DAAL RS. 25/KG\n");
+                printf("ENTER 4 FOR UDHAD DAAL RS. 40/KG\n");
+                int c1;
+                scanf("%d",&c1);
+                float amm1;
+                printf("ENTER THE QUANTITY\n");
+                scanf("%f",amm1);
+                switch(c1)
+                {
+                case 1:
+                    {
+                        total=total+(30*amm1);
+                        break;
+                    }
+                case 2:
+                    {
+                        total=total+(35*amm1);
+                        break;
+                    }
+                case 3:
+                    {
+                        total=total+(25*amm1);
+                        break;
+                    }
+                case 4:
+                    {
+                        total=total+(40*amm1);
+                        break;
+                    }
+                    }break;
+                }
+            case 2:
+            {
+                        printf("ENTER 1 FOR POTATO RS. 20/KG\n");
+                        printf("ENTER 2 FOR TOMATO RS. 15/KG\n");
+                        printf("ENTER 3 FOR COLIFLOWER RS. 30/KG\n");
+                        printf("ENTER 4 FOR LADY FINGER RS.35/KG\n");
+                        printf("ENTER 5 FOR SPANICH RS. 20/KG\n");
+                        printf("ENTER 6 FOR ONION RS. 45/KG\n");
+                        int c2;
+                scanf("%d",&c2);
+                float amm2;
+                printf("ENTER THE QUANTITY\n");
+                scanf("%f",amm2);
+                switch(c2)
+                {
+                case 1:
+                    {
+                        total=total+(20*amm2);
+                        break;
+                    }
+                case 2:
+                    {
+                        total=total+(15*amm2);
+                        break;
+                    }
+                case 3:
+                    {
+                        total=total+(30*amm2);
+                        break;
+                    }
+                case 4:
+                    {
+                        total=total+(35*amm2);
+                        break;
+                    }
+                case 5:
+                    {
+                        total=total+(20*amm2);
+                        break;
+                    }
+                case 6:
+                    {
+                        total=total+(45*amm2);
+                        break;
+                    }
+
+                }
+
+                }
+            case 3:
+                {
+                    printf("ENTER 1 FOR GRAPES RS. 40/KG\n");
+                    printf("ENTER 2 FOR ORANGE RS. 35/KG\n");
+                    printf("ENTER 3 FOR APPLES RS. 60/KG\n");
+                    printf("ENTER 4 FOR BANANA RS.20/KG\n");
+                    printf("ENTER 5 FOR PINEAPPLE RS. 40/KG\n");
+                    printf("ENTER 6 FOR MANGO\n");
+                    int c3;
+                scanf("%d",&c3);
+                float amm3;
+                printf("ENTER THE QUANTITY\n");
+                scanf("%f",amm3);
+                switch(c3)
+                {
+                case 1:
+                    {
+                        total=total+(40*amm3);
+                        break;
+                    }
+                case 2:
+                    {
+                        total=total+(35*amm3);
+                        break;
+                    }
+                case 3:
+                    {
+                        total=total+(60*amm3);
+                        break;
+                    }
+                case 4:
+                    {
+                        total=total+(20*amm3);
+                        break;
+                    }
+                case 5:
+                    {
+                        total=total+(40*amm3);
+                        break;
+                    }
+                case 6:
+                    {
+                        printf("ENTER 1 FOR DUSHSERI RS. 35/KG\n");
+                        printf("NETER 2 FOR LAGDA RS. 30/KG\n");
+                        printf("ENTER 3 FOR HAFOOS RS. 40/KG\n");
+                        printf("ENTER 4 FOR CHOSA RS. 25/KG\n");
+                        printf("ENTER 5 FOR ALPHANSO RS. 50/KG\n");
+                        int c31;
+                        scanf("%d",&c31);
+                        float amm31;
+                        printf("ENTER THE QUANTITY\n");
+                        scanf("%f",amm31);
+                        switch(c31)
+                        {
+                        case 1:
+                            {
+                            total=total+(35*amm31);
+                            break;
+                            }
+                        case 2:
+                            {
+                            total=total+(30*amm31);
+                            break;
+                            }
+                        case 3:
+                            {
+                            total=total+(40*amm31);
+                            break;
+                            }
+                        case 4:
+                            {
+                            total=total+(25*amm31);
+                            break;
+                            }
+                        case 5:
+                            {
+                            total=total+(50*amm31);
+                            break;
+                            }
+                        }
+                        break;
+                    }
+                }break;
+                }
+                case 4:
+                {
+                    printf("ENTER 1 FOR OLIVE OIL RS. 20/L\n");
+                    printf("ENTER 2 FOR COCONAT OIL RS. 15/L\n");
+                    printf("ENTER 3 FOR TOOTH BRUSH RS. 15/PIECE\n");
+                    printf("ENTER 4 FOR CUPS RS.10/PIECE\n");
+                    printf("ENTER 5 FOR NOTE BOOKS RS. 20/PIECE\n");
+                    printf("ENTER 6 FOR PENS RS. 10/PIECE\n");
+                    int c4;
+                scanf("%d",&c4);
+                float amm4;
+                printf("ENTER THE QUANTITY\n");
+                scanf("%f",amm4);
+                switch(c4)
+                {
+                case 1:
+                    {
+                        total=total+(20*amm4);
+                        break;
+                    }
+                case 2:
+                    {
+                        total=total+(15*amm4);
+                        break;
+                    }
+                case 3:
+                    {
+                        total=total+(15*amm4);
+                        break;
+                    }
+                case 4:
+                    {
+                        total=total+(10*amm4);
+                        break;
+                    }
+                case 5:
+                    {
+                        total=total+(20*amm4);
+                        break;
+                    }
+                case 6:
+                    {
+                        total=total+(10*amm4);
+                        break;
+                    }}
+                break;
+            }
+            case 5:
+            {
+                        printf("ENTER 1 FOR IPHONE 8 RS. 80000/PIECE\n");
+                        printf("ENTER 2 FOR MOTO G4 + RS. 15000/PIECE\n");
+                        printf("ENTER 3 FOR REDMI NOTE 4 RS. 20000/PIECE\n");
+                        printf("ENTER 4 FOR LETV RS.35000/PIECE\n");
+                        int c5;
+                scanf("%d",&c5);
+                float amm5;
+                printf("ENTER THE QUANTITY\n");
+                scanf("%f",amm5);
+                switch(c5)
+                {
+                case 1:
+                    {
+                        total=total+(80000*amm5);
+                        break;
+                    }
+                case 2:
+                    {
+                        total=total+(15000*amm5);
+                        break;
+                    }
+                case 3:
+                    {
+                        total=total+(20000*amm5);
+                        break;
+                    }
+                case 4:
+                    {
+                        total=total+(35000*amm5);
+                        break;
+                    }
+                }
+                break;
+            }
+            case 6:
+            {
+                    printf("ENTER 1 FOR SAMSUNG RS. 25000/PIECE\n");
+                    printf("ENTER 2 FOR LG RS. 30000/PIECE\n");
+                    printf("ENTER 3 FOR MICROMAX RS. 25000/PIECE\n");
+                    int c6;
+                scanf("%d",&c6);
+                float amm6;
+                printf("ENTER THE QUANTITY\n");
+                scanf("%f",amm6);
+                switch(c6)
+                {
+                case 1:
+                    {
+                        total=total+(25000*amm6);
+                        break;
+                    }
+                case 2:
+                    {
+                        total=total+(30000*amm6);
+                        break;
+                    }
+                case 3:
+                    {
+                        total=total+(25000*amm6);
+                        break;
+                    }break;
+                    }
+                break;
+                }
+            }
+    printf("WHAT ELSE WOULD YOU LIKE TO BUY?\n");
+    printf("ENTER 1 FOR PULSES\n");
+    printf("ENTER 2 FOR VEGITABLES\n");
+    printf("ENTER 3 FOR FRUITS\n");
+    printf("ENTER 4 FOR DAILY USAGE ITEMS\n");
+    printf("ENTER 5 FOR MOBILE PHONES\n");
+    printf("ENTER 6 FOR TV'S\n");
+    printf("ENTER 0 TO WIND UP YOUR SHOPING\n");
+    scanf("%d",&c);
+    }
+    printf("YOUR TOTAL BILL =RS. %d",total);
+    return 0;
+}
