@@ -1,0 +1,29 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int maximizeProfit(int a_size, int* a, int b_size, int* b, int m, int k) {
+    // Complete this function
+}
+
+int main() {
+    int n; 
+    int m; 
+    int k; 
+    scanf("%i %i %i", &n, &m, &k);
+    int *a = malloc(sizeof(int) * n);
+    for (int a_i = 0; a_i < n; a_i++) {
+       scanf("%i",&a[a_i]);
+    }
+    int *b = malloc(sizeof(int) * n);
+    for (int b_i = 0; b_i < n; b_i++) {
+       scanf("%i",&b[b_i]);
+    }
+    int result = maximizeProfit(a, b, m, k);
+    printf("%d\n", result);
+    return 0;
+}
